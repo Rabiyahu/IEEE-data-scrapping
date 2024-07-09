@@ -22,6 +22,13 @@ This project is a web scraper that extracts article names, links, authors, and t
 ### 1. Install Required Packages
 
 Make sure you have Python installed on your system. Then, install the required packages using pip:
+pip install selenium
+pip install webdriver-manager
+
+```bash
+Ensure that the Chrome browser is installed on your system.
+Adjust the sleep durations (time.sleep()) in the code if necessary, depending on the loading time of the web pages.
+The extracted data will be saved in rdfinal.csv with the columns: Article Name, Article Link, Authors, and Author Descriptions.
 
 ```bash
 pip install selenium
