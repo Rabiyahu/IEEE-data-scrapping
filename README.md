@@ -29,4 +29,8 @@ pip install webdriver-manager
 
 ```bash
 pip install selenium
+
+Ensure that the Chrome browser is installed on your system.
+Adjust the sleep durations (time.sleep()) in the code if necessary, depending on the loading time of the web pages.
+The extracted data will be saved in rdfinal.csv with the columns: Article Name, Article Link, Authors, and Author Descriptions.
 pip install webdriver-manager
